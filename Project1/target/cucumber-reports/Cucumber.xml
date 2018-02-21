@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.530853">
+<testcase classname="Demo" name="Test_smoke" time="0.525126">
+<system-out><![CDATA[Given Customer is valid before it access application........................passed
+Given Smoke user logs into application and verifies home page screen........passed
+When user verifies page.....................................................passed
+Then home page should be displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo" name="Test_Regression" time="0.00336">
+<system-out><![CDATA[Given Customer is valid before it access application........................passed
+Given Regression user logs into application and verifies home page screen...passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo" name="Test_Sanity" time="0.002367">
+<system-out><![CDATA[Given Customer is valid before it access application........................passed
+Given Sanity user logs into application and verifies home page screen.......passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,321 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Scenario outline: SampleTest for cucumber practice"
+          },
+          {
+            "line": 7,
+            "value": "#Given user selects with standard\"\u003cusername\u003e\" and \"\u003cpassword\u003e\""
+          },
+          {
+            "line": 9,
+            "value": "#Examples:"
+          },
+          {
+            "line": 10,
+            "value": "#  | username | password |"
+          },
+          {
+            "line": 11,
+            "value": "#  | test111  | y1234    |"
+          }
+        ],
+        "line": 13,
+        "name": "check for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 523121448,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Customer is valid before it access application",
+            "match": {
+              "location": "test.background_test_scenario()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1257380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.beforeCucumberScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Test_smoke",
+        "description": "",
+        "id": "demo;test-smoke",
+        "after": [
+          {
+            "result": {
+              "duration": 223100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.test_after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83791,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Smoke user logs into application and verifies home page screen",
+            "match": {
+              "location": "test.smoke_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358297,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verifies page",
+            "match": {
+              "location": "test.smoke_test1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82249,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "home page should be displayed",
+            "match": {
+              "location": "test.smoke_test2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Scenario outline: SampleTest for cucumber practice"
+          },
+          {
+            "line": 7,
+            "value": "#Given user selects with standard\"\u003cusername\u003e\" and \"\u003cpassword\u003e\""
+          },
+          {
+            "line": 9,
+            "value": "#Examples:"
+          },
+          {
+            "line": 10,
+            "value": "#  | username | password |"
+          },
+          {
+            "line": 11,
+            "value": "#  | test111  | y1234    |"
+          }
+        ],
+        "line": 13,
+        "name": "check for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1295934,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Customer is valid before it access application",
+            "match": {
+              "location": "test.background_test_scenario()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 106410,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.beforeCucumberScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Test_Regression",
+        "description": "",
+        "id": "demo;test-regression",
+        "after": [
+          {
+            "result": {
+              "duration": 450313,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.test_after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1507725,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Regression user logs into application and verifies home page screen",
+            "match": {
+              "location": "test.regression_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Scenario outline: SampleTest for cucumber practice"
+          },
+          {
+            "line": 7,
+            "value": "#Given user selects with standard\"\u003cusername\u003e\" and \"\u003cpassword\u003e\""
+          },
+          {
+            "line": 9,
+            "value": "#Examples:"
+          },
+          {
+            "line": 10,
+            "value": "#  | username | password |"
+          },
+          {
+            "line": 11,
+            "value": "#  | test111  | y1234    |"
+          }
+        ],
+        "line": 13,
+        "name": "check for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 398393,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Customer is valid before it access application",
+            "match": {
+              "location": "test.background_test_scenario()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 409702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.beforeCucumberScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Test_Sanity",
+        "description": "",
+        "id": "demo;test-sanity",
+        "after": [
+          {
+            "result": {
+              "duration": 1125782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.test_after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 433349,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Sanity user logs into application and verifies home page screen",
+            "match": {
+              "location": "test.sanity_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Demo",
+    "description": "Description:Purpose to Test various cucumber advance options",
+    "id": "demo",
+    "keyword": "Feature",
+    "uri": "test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
