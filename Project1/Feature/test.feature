@@ -14,7 +14,7 @@ Background: check for each scenario
 
 Given Customer is valid before it access application
 
-@Smoke.
+@Smoke..
 Scenario: Test_smoke
 
 Given Smoke user logs into application and verifies home page screen
