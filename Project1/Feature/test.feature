@@ -2,7 +2,7 @@
 Feature: Demo
 Description:Purpose to Test various cucumber advance options
 
-#Scenario outline: SampleTest for cucumber practice;
+#Scenario outline: SampleTest for cucumber practice;.
 
 #Given user selects with standard"<username>" and "<password>"
 
